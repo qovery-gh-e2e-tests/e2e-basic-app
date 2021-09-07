@@ -2,7 +2,7 @@ package cmd
 
 import "github.com/Qovery/e2e-app/pkg"
 
-func Execut(port string) {
+func Execute(port string) {
 	routes := []pkg.Route{
 		{"test", "get"},
 	}

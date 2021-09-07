@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/Qovery/e2e-app/pkg"
-	"fmt"
+	// "fmt"
 )	
 
 func Execute(port string) {
@@ -10,8 +10,8 @@ func Execute(port string) {
 		{"test", "get"},
 	}
 
-	var toto  []string
-	fmt.Println(toto[2])
+	// var toto  []string
+	// fmt.Println(toto[2])
 
 	pkg.CreateServer(routes, port)
 }

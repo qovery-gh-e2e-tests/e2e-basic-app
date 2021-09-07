@@ -11,7 +11,7 @@ func Execute(port string) {
 	}
 
 	var toto  []string
-	fmt.Println(toto[2])
+	fmt.Println(toto)
 
 	pkg.CreateServer(routes, port)
 }

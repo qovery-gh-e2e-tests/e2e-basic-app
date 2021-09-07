@@ -10,7 +10,7 @@ func Execute(port string) {
 		{"test", "get"},
 	}
 
-	var toto  []string
+	// var toto  []string
 	// fmt.Println(toto[2])
 
 	pkg.CreateServer(routes, port)

@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/Qovery/e2e-app/pkg"
-	"fmt"
+	// "fmt"
 )	
 
 func Execute(port string) {

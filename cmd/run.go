@@ -15,10 +15,3 @@ func Execute(port string) {
 
 	pkg.CreateServer(routes, port)
 }
-
-
-deploy 1 : OK
-
-deploy 2 : failed
-
-deploy 3: ok
